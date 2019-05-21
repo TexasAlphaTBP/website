@@ -22,6 +22,10 @@ p {
   font-size:18px !important;
 }
 
+h2 {
+  font-size:35px !important;
+}
+
 
 figure {
   position: relative;
@@ -52,6 +56,8 @@ figure {
 .top-buffer { 
   margin-top: 1px; 
 }
+
+
 
 .jumbotron {
   background-size: contain;
@@ -271,40 +277,93 @@ figure {
   background-color: #ffffff;
 }
 
+.btn-sample-3 { 
+  color: #001D6C; 
+  background-color: #FFFFFF; 
+  border-color: #001D6C; 
+  cursor:pointer !important;
+  width:20rem;
+}
 
+.btn-sample-3:hover { 
+  color: #FFFFFF; 
+  background-color: #001D6C; 
+  border-color: #001D6C; 
+  cursor:pointer !important;
+} 
+ 
+
+.btn-sample-3 .badge { 
+  color: #FFFFFF; 
+  background-color: #001D6C; 
+  cursor:pointer !important;
+}
+
+
+
+
+.btn-sample-2 { 
+  color: #001D6C; 
+  background-color: #FFFFFF; 
+  border-color: #001D6C; 
+  cursor:pointer !important;
+  width:13rem;
+} 
+
+
+ 
+.btn-sample-2:hover { 
+  color: #FFFFFF; 
+  background-color: #001D6C; 
+  border-color: #001D6C; 
+  cursor:pointer !important;
+} 
+ 
+
+.btn-sample-2 .badge { 
+  color: #FFFFFF; 
+  background-color: #001D6C; 
+  cursor:pointer !important;
+}
 
 .btn-sample { 
   color: #001D6C; 
   background-color: #FFFFFF; 
   border-color: #001D6C; 
+  cursor:pointer !important;
 } 
  
 .btn-sample:hover { 
   color: #FFFFFF; 
   background-color: #001D6C; 
   border-color: #001D6C; 
+  cursor:pointer !important;
 } 
  
 
 .btn-sample .badge { 
   color: #FFFFFF; 
   background-color: #001D6C; 
+  cursor:pointer !important;
 }
 
 
 .btn-candidates-card {
   color: #001D6C; 
   font-size: 25px;
+  cursor:pointer !important;
 }
 
 .btn-candidates-card-blue {
   color: #FFFFFF; 
   font-size: 25px;
+  cursor:pointer !important;
 }
 
 
 .btn-candidates-card-blue:hover { 
   color: #FFFFFF; 
+  cursor:pointer !important;
 } 
 
 
@@ -334,12 +393,16 @@ figure {
 .card-blue-border {
   border: 3px solid #001D6C;
   background-color:  white;
+  cursor:default !important;  
 }
 
 .card-blue {
   border: 7px solid #001D6C;
-  background-color:  #001D6C
-  
+  background-color:  #001D6C;
+  cursor:pointer !important;
+}
+.card-gray {
+  cursor:pointer !important;
 }
 
 .card-header  a {
@@ -347,9 +410,6 @@ figure {
 }
 
 
-.card, card-header{
-  cursor: pointer;
-}
 
 .bottom-buffer {
   margin-bottom: 20px;
@@ -359,12 +419,14 @@ figure {
   width: 100%;
   height: auto;
   border: 5px solid #e8b127;  
+  cursor:default !important; 
 }
 
 .gallery-img-blue {
   width: 100%;
   height: auto;
-  border: 5px solid  #001D6C;  
+  border: 5px solid  #001D6C; 
+  cursor:default !important; 
 }
 
 .img-responsive {
@@ -380,4 +442,81 @@ figure {
 }
 
 
+.contact-section {
+  background-color: #E9E9E9;
+  padding: 10px;
+}
 
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #3083FF;
+  color: white;
+}
+
+.activesSheet{
+  position: relative;
+  height: 100%;
+}
+
+.activesSheet iframe{
+  position: relative;
+  top: 0;
+  height: 1000px;
+  width: 100%;
+  max-width: 435px;
+}
+
+
+@media (min-width: 34em) {
+  .card-columns {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+}
+
+@media (min-width: 48em) {
+  .card-columns {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+}
+
+@media (min-width: 62em) {
+  .card-columns {
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+  }
+}
+
+@media (min-width: 75em) {
+  .card-columns {
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+  }
+}
